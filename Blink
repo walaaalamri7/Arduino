@@ -1,0 +1,12 @@
+
+void setup(){
+//Don't Forget the captal latter
+  pinMode(13, OUTPUT);
+}
+void loop(){
+  digitalWrite(13,1); //high
+  delay(1000); //runningtime by milliSecnoed
+  digitalWrite(13,0); //Low
+  delay(3000);//waiting Time
+}
+
